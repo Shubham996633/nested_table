@@ -1,8 +1,9 @@
 # Shadcn Nested Data Table
+@shadcn
 
 ## Overview
 
-This repository contains a custom implementation of a nested data table built using Shadcn components. As of now, there isn't an official or widely available implementation of a nested data table with Shadcn, so I took the initiative to create one.
+This repository contains a custom implementation of a nested data table built using [Shadcn](https://github.com/shadcn-ui/ui) components. As of now, there isn't an official or widely available implementation of a nested data table with Shadcn, so I took the initiative to create one.
 
 ## Features
 
@@ -31,6 +32,10 @@ This repository contains a custom implementation of a nested data table built us
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests with any improvements or new features.
+
+## Credits
+
+This project was made possible by the amazing work of the [Shadcn](https://github.com/shadcn/shadcn-ui/ui) team. If you’re interested in more UI components, check out their repository.
 
 ## License
 This project is licensed under the MIT License.
