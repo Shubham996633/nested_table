@@ -11,9 +11,9 @@ export default function Home() {
 
 
   return (
-    <main className="flex min-h-screen flex-col py-24 px-5 gap-8 max-w-5xl mx-auto">
+    <main className="flex min-h-screen flex-col pt-24 px-5 gap-8 max-w-7xl mx-auto">
       <div className="flex flex-col gap-2 items-center lg:px-10">
-        <h1 className="font-bold text-4xl">Shadcn Nested Data Tble</h1>
+        <h1 className="font-bold text-4xl">Shadcn Nested Data Table</h1>
         <h2 className="font-medium text-xl text-muted-foreground text-center px-10">
           <Balancer>
             Representation of Nested Data table with Shadcn UI, Radix

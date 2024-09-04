@@ -7,7 +7,7 @@ type Props = {}
 
 const NestedDataTable = (props: Props) => {
     return (
-        <div className="flex-col ">
+        <div className="bg-gray-900 rounded-lg p-6 flex-col ">
             <div className="flex-1 ">
 
 
