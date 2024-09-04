@@ -44,7 +44,7 @@ export const columns: ColumnDef<ChaptersColumn>[] = [
 	},
 
 	{
-		accessorKey: "Summary",
+		accessorKey: "summary",
 		header: ({ column }) => {
 			return (
 				<Button variant="ghost" onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}>

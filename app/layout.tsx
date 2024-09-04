@@ -1,6 +1,7 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Toaster } from "sonner";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,6 +22,15 @@ export default function RootLayout({
       <html lang="en" suppressHydrationWarning>
         <head />
         <body>
+          <Toaster
+            position="bottom-center"
+            toastOptions={{
+              style: {
+                background: "white",
+              },
+              className: "bg-white dark:bg-black",
+            }}
+          />
           <ThemeProvider
             attribute="class"
             defaultTheme="system"

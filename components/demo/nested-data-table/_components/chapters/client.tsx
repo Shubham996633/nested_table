@@ -7,7 +7,6 @@ import { ChaptersColumn, columns } from "./columns";
 
 interface ChaptersClientProps {
 	data: ChaptersColumn[];
-	purchaseId: string
 }
 
 export const ChaptersClient: React.FC<ChaptersClientProps> = ({ data }) => {

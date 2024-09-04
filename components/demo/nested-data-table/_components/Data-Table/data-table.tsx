@@ -15,7 +15,7 @@ import {
 } from "@tanstack/react-table";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import React from "react";
-// import { PurchasesPlansClient } from "../plans/client";
+import { ChaptersClient } from "../chapters/client";
 // Define DataTableProps interface
 interface DataTableProps<TData, TValue> {
 	columns: ColumnDef<TData, TValue>[];
@@ -86,7 +86,7 @@ export function DataTable<TData, TValue>({
 									{row.getIsExpanded() && (
 										<TableRow>
 											<TableCell colSpan={columns.length + 1}>
-												{/* <PurchasesPlansClient purchaseId={row.original.purchase.purchase_id} data={row.original.purchase.plans} /> */}
+												<ChaptersClient data={row.original.chapters} />
 											</TableCell>
 										</TableRow>
 									)}
