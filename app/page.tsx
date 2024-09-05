@@ -25,7 +25,7 @@ export default function Home() {
         <div className="flex gap-4 items-center">
           <Button asChild>
             <Link
-              href="https://github.com/shubham996633/"
+              href="https://github.com/Shubham996633/nested_table"
               target="_blank"
             >
               <Star className="mr-2 size-4" />
